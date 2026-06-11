@@ -1,4 +1,4 @@
-# 🤝 [Nombre del proyecto] — Accesibilidad, Empatía y Comunicación
+# 🤝 Accesibilidad, Empatía y Comunicación
 
 > Rompiendo la brecha entre personas con y sin discapacidad auditiva/visual a través de la educación y la empatía.
 
@@ -56,7 +56,6 @@ Experiencias interactivas que permiten a los usuarios ponerse en el lugar de per
 
 ## 💜 Equipo
 
-> _Agregar nombres / usuarios de GitHub del equipo_
 
 ---
 
