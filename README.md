@@ -1,35 +1,64 @@
-## Grupo B - Equipo {7}
-_Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
+# 🤝 [Nombre del proyecto] — Accesibilidad, Empatía y Comunicación
 
-```⚠️ Dejar la opción correcta entre Grupo A (Grupo de 17 a 19hs) y Grupo B (Grupo de 19 a 21hs) y agregar el número de equipo ⚠️```
+> Rompiendo la brecha entre personas con y sin discapacidad auditiva/visual a través de la educación y la empatía.
 
-En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
+---
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+## 📌 Descripción
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+Este proyecto es una página web educativa e inclusiva que busca hacer más accesible el conocimiento del **Lenguaje de Señas Argentino (LSA)** y el **Braille**, acercando estos sistemas de comunicación a toda la sociedad argentina —y del mundo— de forma didáctica, empática y libre de barreras.
 
-🎨 Moodboard
+El proyecto nace de una problemática real: la desigualdad en la comunicación cotidiana y digital entre personas con y sin discapacidad auditiva o visual. Apunta a despertar conciencia, fomentar la empatía y reducir esa brecha, un aprendizaje a la vez.
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+---
+
+## 🌍 ODS que cumple
+
+- **ODS 4** — Educación de calidad: contenido accesible y gratuito para todos
+- **ODS 10** — Reducción de las desigualdades: tecnología al servicio de la inclusión
+
+---
+
+## 👥 Público objetivo
+
+- Personas **con** discapacidad auditiva o visual
+- Personas **sin** discapacidad que quieran aprender y concientizarse
+- Rango etario: **15 a 60 años**
+- Contexto principal: **Argentina**, con perspectiva global
+
+---
+
+## 🎯 Objetivo
+
+Romper la brecha de desigualdad en la comunicación, despertando la conciencia y la empatía de quienes desconocen la realidad de las personas con discapacidad auditiva o visual.
+
+---
+
+## ✨ Funcionalidades principales
+
+### 🗺️ Ruta de aprendizaje
+Recorrido guiado con juegos cortos, didácticos e interactivos con contenido básico de **LSA** y **Braille**:
+- Saludos
+- Abecedario
+- Frases comunes del día a día
+
+### 💡 Sección de concientización
+Espacio dedicado a datos curiosos e información relevante para romper mitos y ampliar perspectivas. Ejemplos:
+- No todas las personas no videntes saben leer Braille
+- No todas las personas con discapacidad auditiva saben lenguaje de señas
+- El lenguaje de señas varía según el país (LSA, LSE, ASL, etc.)
+
+### 🧠 Simuladores de empatía
+Experiencias interactivas que permiten a los usuarios ponerse en el lugar de personas con discapacidad auditiva o visual, promoviendo una comprensión más profunda y genuina.
+
+---
 
 
-**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
+## 💜 Equipo
 
-💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
-```
-- Agregamos Bootstrap para el carrousel de imágenes...
-- Modificamos el texto de la sección de bienvenida...
-- Transformamos los textos sobre redes sociales en links...
-```
+> _Agregar nombres / usuarios de GitHub del equipo_
 
-Ahora si, ¡A programar! 🚀
+---
 
+*"La accesibilidad no es un favor. Es un derecho."*
 
-[^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
