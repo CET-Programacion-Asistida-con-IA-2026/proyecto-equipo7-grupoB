@@ -1,35 +1,40 @@
-## Grupo B - Equipo {7}
-_Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
+# 🤝 Accesibilidad, Empatía y Comunicación
 
-```⚠️ Dejar la opción correcta entre Grupo A (Grupo de 17 a 19hs) y Grupo B (Grupo de 19 a 21hs) y agregar el número de equipo ⚠️```
+> Rompiendo la brecha entre personas con y sin discapacidad auditiva/visual a través de la educación y la empatía.
 
-En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
+---
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+## 📌 Problemática
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+La desigualdad en la comunicación entre personas con y sin discapacidad auditiva o visual es una realidad presente tanto en la vida cotidiana como en el mundo tecnológico. En Argentina y en el mundo, quienes no conocen el Lenguaje de Señas o el Braille quedan excluidos de una parte importante de la sociedad, generando una brecha que afecta la inclusión, la empatía y el acceso a la información.
 
-🎨 Moodboard
+Esta problemática se profundiza por el desconocimiento generalizado: muchas personas ignoran que no todas las personas no videntes saben leer Braille, que no todas las personas con discapacidad auditiva saben lenguaje de señas, y que el lenguaje de señas varía según el país.
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+---
+
+## 🌍 Relación con los ODS
+
+- **ODS 4 — Educación de calidad:** acercamos contenido educativo accesible y gratuito sobre LSA y Braille a cualquier persona, sin importar su punto de partida.
+- **ODS 10 — Reducción de las desigualdades:** usamos la tecnología como herramienta para reducir la brecha de comunicación entre personas con y sin discapacidad.
+
+---
+
+## 💡 Solución tecnológica
+
+Desarrollamos una página web educativa e inclusiva que hace más accesible el aprendizaje del **Lenguaje de Señas Argentino (LSA)** y el **Braille**, dirigida a personas de entre 15 y 60 años, con o sin discapacidad.
+
+La plataforma incluye:
+
+- **Ruta de aprendizaje:** juegos cortos, didácticos e interactivos con contenido básico de LSA y Braille (saludos, abecedario, frases comunes del día a día)
+- **Sección de concientización:** datos curiosos e información relevante para romper mitos y ampliar perspectivas sobre la discapacidad auditiva y visual
+- **Simuladores de empatía:** experiencias interactivas que permiten ponerse en el lugar de personas con discapacidad, promoviendo una comprensión más profunda y genuina
+
+---
+
+## 💜 Equipo
+
+---
+
+*"La accesibilidad no es un favor. Es un derecho."*
 
 
-**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
-
-💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
-```
-- Agregamos Bootstrap para el carrousel de imágenes...
-- Modificamos el texto de la sección de bienvenida...
-- Transformamos los textos sobre redes sociales en links...
-```
-
-Ahora si, ¡A programar! 🚀
-
-
-[^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
