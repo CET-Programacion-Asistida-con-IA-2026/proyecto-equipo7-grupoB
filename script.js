@@ -1,5 +1,5 @@
 /* ==========================================================
-   SENTIDOS ABIERTOS — SCRIPT.JS
+   SEYRE — SCRIPT.JS
    Módulos: Braille, LSA, Quiz, Traductor, Modo Accesible
 ========================================================== */
 
