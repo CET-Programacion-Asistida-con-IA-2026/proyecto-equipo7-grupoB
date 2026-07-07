@@ -3,7 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sentidos Abiertos — LSA y Braille para todos</title>
+  <title>Seyre — LSA y Braille para todos</title>
+ <!-- ===== FONTS PLAYFAIR DISPLAY ===== -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+ <!-- ===== FONTS MONTSERRAT===== -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <!-- ===== FONTS IA ===== -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -20,10 +29,10 @@
   <!-- ===== NAVBAR ===== -->
   <header class="navbar" role="banner">
     <div class="nav-inner">
-      <a href="#" class="nav-logo" aria-label="Sentidos Abiertos — inicio">
+      <a href="#" class="nav-logo" aria-label="Seyre — inicio">
         <span class="logo-dot"></span><span class="logo-dot"></span>
         <span class="logo-dot"></span><span class="logo-dot"></span>
-        <span class="logo-text">Sentidos<strong>Abiertos</strong></span>
+        <span class="logo-text">Sey<strong>Re</strong></span>
       </a>
       <nav role="navigation" aria-label="Menú principal">
         <ul class="nav-links">
@@ -288,10 +297,11 @@
     </section>
       <!-- ===== MEMOTEST BRAILLE ===== -->
       <div>
-        <h3>Memotest!</h3>
-        <section aria-label="juego braille">
-          <ul role="list" class="grilla cartas">
-            <li>
+        <h3 id="ttlgm">A practicar!</h3>
+        <p id="consigna">Uní la letra en braille con la de escritura tradicional</p>
+        <section aria-label="juego braille" class="MainGame">
+          <ul role="list" class="grillaCartas">
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra A braille"
@@ -300,9 +310,9 @@
                 data-tipo="braille">
                 <span aria-hidden ="true" class="celda">⠁</span>
               </button>
-            </li>
-             <li>
-              <button 
+            </li >
+             <li class="contenedorCarta">
+              <button
                 class="carta"
                 aria-label="letra B braille"
                 aria-pressed="false"
@@ -311,7 +321,7 @@
                 <span aria-hidden ="true" class="celda">⠃</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra C braille"
@@ -321,7 +331,7 @@
                 <span aria-hidden ="true" class="celda">⠉</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra D braille"
@@ -331,7 +341,7 @@
                 <span aria-hidden ="true" class="celda">⠙</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra E braille"
@@ -341,7 +351,7 @@
                 <span aria-hidden ="true" class="celda">⠑</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra F braille"
@@ -351,7 +361,7 @@
                 <span aria-hidden ="true" class="celda">⠋</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra G braille"
@@ -361,7 +371,7 @@
                 <span aria-hidden ="true" class="celda">⠛</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra H braille"
@@ -371,7 +381,7 @@
                 <span aria-hidden ="true" class="celda">⠓</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra I braille"
@@ -381,7 +391,7 @@
                 <span aria-hidden ="true" class="celda">⠊</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra J braille"
@@ -391,8 +401,7 @@
                 <span aria-hidden ="true" class="celda">⠚</span>
               </button>
             </li>
-             
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra K braille"
@@ -402,7 +411,7 @@
                 <span aria-hidden ="true" class="celda">⠅</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra L braille"
@@ -412,7 +421,7 @@
                 <span aria-hidden ="true" class="celda">⠇</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra M braille"
@@ -422,7 +431,7 @@
                 <span aria-hidden ="true" class="celda">⠍</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra N braille"
@@ -432,7 +441,7 @@
                 <span aria-hidden ="true" class="celda">⠝</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra O braille"
@@ -442,7 +451,7 @@
                 <span aria-hidden ="true" class="celda">⠕</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra P braille"
@@ -452,7 +461,7 @@
                 <span aria-hidden ="true" class="celda">⠏</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra Q braille"
@@ -462,7 +471,7 @@
                 <span aria-hidden ="true" class="celda">⠟</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra R braille"
@@ -472,7 +481,7 @@
                 <span aria-hidden ="true" class="celda">⠗</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra S braille"
@@ -482,7 +491,7 @@
                 <span aria-hidden ="true" class="celda">⠎</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra T braille"
@@ -492,7 +501,7 @@
                 <span aria-hidden ="true" class="celda">⠞</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra U braille"
@@ -502,7 +511,7 @@
                 <span aria-hidden ="true" class="celda">⠥</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra V braille"
@@ -512,7 +521,7 @@
                 <span aria-hidden ="true" class="celda">⠧</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra w braille"
@@ -522,7 +531,7 @@
                 <span aria-hidden ="true" class="celda">⠺</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra X braille"
@@ -532,7 +541,7 @@
                 <span aria-hidden ="true" class="celda">⠭</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra Y braille"
@@ -542,7 +551,7 @@
                 <span aria-hidden ="true" class="celda">⠽</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra Z braille"
@@ -552,7 +561,7 @@
                 <span aria-hidden ="true" class="celda">⠵</span>
               </button>
             </li>
-             <li>
+             <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra A"
@@ -562,17 +571,17 @@
                 <span aria-hidden ="true" class="celda">A</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra B"
                 aria-pressed="false"
                 data-letra="B"
                 data-tipo="texto">
-                <span aria-hidden ="true" class="celda">b</span>
+                <span aria-hidden ="true" class="celda">B</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra C"
@@ -582,7 +591,7 @@
                 <span aria-hidden ="true" class="celda">C</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra D"
@@ -592,7 +601,7 @@
                 <span aria-hidden ="true" class="celda">D</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra E"
@@ -602,7 +611,7 @@
                 <span aria-hidden ="true" class="celda">E</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra F"
@@ -612,7 +621,7 @@
                 <span aria-hidden ="true" class="celda">F</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra G"
@@ -622,7 +631,7 @@
                 <span aria-hidden ="true" class="celda">G</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra H"
@@ -632,7 +641,7 @@
                 <span aria-hidden ="true" class="celda">H</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra I"
@@ -642,7 +651,7 @@
                 <span aria-hidden ="true" class="celda">I</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra J"
@@ -652,7 +661,7 @@
                 <span aria-hidden ="true" class="celda">J</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra K"
@@ -662,7 +671,7 @@
                 <span aria-hidden ="true" class="celda">K</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra L"
@@ -672,7 +681,7 @@
                 <span aria-hidden ="true" class="celda">L</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra N"
@@ -682,7 +691,7 @@
                 <span aria-hidden ="true" class="celda">N</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra M"
@@ -691,7 +700,8 @@
                 data-tipo="texto">
                 <span aria-hidden ="true" class="celda">M</span>
               </button>
-            </li><li>
+            </li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra O"
@@ -701,7 +711,7 @@
                 <span aria-hidden ="true" class="celda">O</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra P"
@@ -711,7 +721,7 @@
                 <span aria-hidden ="true" class="celda">P</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra Q"
@@ -721,7 +731,7 @@
                 <span aria-hidden ="true" class="celda">Q</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra R"
@@ -731,7 +741,7 @@
                 <span aria-hidden ="true" class="celda">R</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra S"
@@ -741,7 +751,7 @@
                 <span aria-hidden ="true" class="celda">S</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra T"
@@ -751,7 +761,7 @@
                 <span aria-hidden ="true" class="celda">T</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra U"
@@ -761,7 +771,7 @@
                 <span aria-hidden ="true" class="celda">U</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra V"
@@ -771,7 +781,7 @@
                 <span aria-hidden ="true" class="celda">V</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra W"
@@ -781,7 +791,7 @@
                 <span aria-hidden ="true" class="celda">W</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra X"
@@ -791,7 +801,7 @@
                 <span aria-hidden ="true" class="celda">X</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra Y"
@@ -801,7 +811,7 @@
                 <span aria-hidden ="true" class="celda">Y</span>
               </button>
             </li>
-            <li>
+            <li class="contenedorCarta">
               <button 
                 class="carta"
                 aria-label="letra Z"
@@ -812,11 +822,7 @@
               </button>
             </li>
           </ul>
-          <button
-          class="cartas emparejadas"
-          aria-disabled="true"
-          aria-label="Letra A ya enparejada">
-          </button>
+        </section>
           <div aria-live="polite" aria-atomic="true" class="estado-juego"></div>
       </div>
     </section>
@@ -845,7 +851,7 @@
             </div>
             <span class="recurso-arrow" aria-hidden="true">→</span>
           </a>
-          <a href="#" class="recurso-card" aria-label="Intérpretes de LSA en Argentina">
+          <a href="https://buenosaires.gob.ar/gcaba_historico/vicejefatura/bienestar-integral/copidis/apoyo-para-la-vida-independiente/tramites-accesibles-servicio-de-interpretes-de-lengua-de-senas" target="_blank" rel="noopener noreferrer" class="recurso-card" aria-label="Intérpretes de LSA en Argentina">
             <span class="recurso-icon" aria-hidden="true">🤟</span>
             <div>
               <strong>Red de Intérpretes LSA</strong>
@@ -871,7 +877,7 @@
   <footer class="footer" role="contentinfo">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo-text">Sentidos<strong>Abiertos</strong></span>
+        <span class="logo-text">Sey<strong>Re</strong></span>
         <p>Un proyecto educativo abierto sobre accesibilidad, LSA y Braille para toda la Argentina.</p>
       </div>
       <div class="footer-links">

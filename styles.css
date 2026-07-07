@@ -1,5 +1,5 @@
 /* ============================================
-   SENTIDOS ABIERTOS — STYLESHEET
+   SEYRE — STYLESHEET
    Paleta: noche profunda + teal + amarillo
    Tipografía: Space Grotesk + Inter
 ============================================ */
@@ -1154,6 +1154,57 @@ body {
 @keyframes popIn {
   from { transform: scale(0.8); opacity: 0; }
   to   { transform: scale(1);   opacity: 1; }
+}
+
+/* ===== ACTIVIDAD BRAILLE ===== */
+.MainGame {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#ttlgm {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--color-text);
+  font-family:var(--font-body);
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+#consigna {
+  font-size: medium;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.grillaCartas {
+ display: flex;
+ flex-wrap:wrap;
+gap: 6px; 
+margin: auto;
+list-style: none;
+max-width: 500px;
+}
+
+.carta {
+width: 50px;
+height: 70px;
+background-color: var(--color-bg-card);
+border-radius: 6px;
+border-width: 1px;
+border-style:solid;
+}
+
+.carta:hover {
+border-color: var(--color-accent);
+}
+
+.celda{
+  font-size:2rem ;
+  color: var(--color-text);
 }
 
 /* ===== RECURSOS ===== */
