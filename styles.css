@@ -594,6 +594,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
+  margin-top: 1rem;
 }
 
 .dato-lista li {
