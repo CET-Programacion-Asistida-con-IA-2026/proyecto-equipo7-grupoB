@@ -49,32 +49,35 @@ const BRAILLE_DESC = {
 
 // ===== DATOS: LSA ABECEDARIO =====
 const LSA_DATA = {
-  a: { emoji: '✊', desc: 'Puño cerrado, pulgar hacia arriba', type: 'vocal' },
-  b: { emoji: '🖐', desc: 'Mano abierta, dedos juntos', type: 'consonant' },
-  c: { emoji: '🤙', desc: 'Mano en C, dedos curvados', type: 'consonant' },
-  d: { emoji: '☝️', desc: 'Índice arriba, otros curvados', type: 'consonant' },
-  e: { emoji: '🤌', desc: 'Dedos juntos en punta', type: 'vocal' },
-  f: { emoji: '👌', desc: 'Índice y pulgar en círculo', type: 'consonant' },
-  g: { emoji: '👉', desc: 'Índice extendido lateral', type: 'consonant' },
-  h: { emoji: '✌️', desc: 'Índice y medio extendidos horizontales', type: 'consonant' },
-  i: { emoji: '🤙', desc: 'Meñique extendido', type: 'vocal' },
-  j: { emoji: '🤙', desc: 'Meñique con movimiento en J', type: 'consonant' },
-  k: { emoji: '✌️', desc: 'Índice y medio con pulgar', type: 'consonant' },
-  l: { emoji: '🤙', desc: 'Índice y pulgar en L', type: 'consonant' },
-  m: { emoji: '🤞', desc: 'Tres dedos curvados sobre pulgar', type: 'consonant' },
-  n: { emoji: '✌️', desc: 'Dos dedos sobre pulgar', type: 'consonant' },
-  o: { emoji: '👌', desc: 'Dedos formando una O', type: 'vocal' },
-  p: { emoji: '🤘', desc: 'Forma de P con índice y pulgar', type: 'consonant' },
-  q: { emoji: '👇', desc: 'Índice y pulgar hacia abajo', type: 'consonant' },
-  r: { emoji: '🤞', desc: 'Índice y medio cruzados', type: 'consonant' },
-  s: { emoji: '✊', desc: 'Puño cerrado, pulgar cruzado', type: 'consonant' },
-  t: { emoji: '👍', desc: 'Pulgar entre índice y medio', type: 'consonant' },
-  u: { emoji: '✌️', desc: 'Índice y medio juntos, arriba', type: 'vocal' },
-  v: { emoji: '✌️', desc: 'Índice y medio separados', type: 'consonant' },
-  w: { emoji: '🤟', desc: 'Tres dedos extendidos separados', type: 'consonant' },
-  x: { emoji: '☝️', desc: 'Índice curvado en gancho', type: 'consonant' },
-  y: { emoji: '🤙', desc: 'Pulgar y meñique extendidos', type: 'consonant' },
-  z: { emoji: '☝️', desc: 'Índice traza Z en el aire', type: 'consonant' },
+  a:   { img: 'img/lsa/a.png',    desc: 'Puño cerrado, pulgar hacia arriba', type: 'vocal' },
+  b:   { img: 'img/lsa/b.png',    desc: 'Mano abierta, dedos juntos', type: 'consonant' },
+  c:   { img: 'img/lsa/c.png',    desc: 'Mano en C, dedos curvados', type: 'consonant' },
+  ch:  { img: 'img/lsa/ch.png',   desc: 'Dígrafo CH, seña compuesta similar a la C', type: 'consonant' },
+  d:   { img: 'img/lsa/d.png',    desc: 'Índice arriba, otros curvados', type: 'consonant' },
+  e:   { img: 'img/lsa/e.png',    desc: 'Dedos juntos en punta', type: 'vocal' },
+  f:   { img: 'img/lsa/f.png',    desc: 'Índice y pulgar en círculo', type: 'consonant' },
+  g:   { img: 'img/lsa/g.png',    desc: 'Índice extendido lateral', type: 'consonant' },
+  h:   { img: 'img/lsa/h.png',    desc: 'Índice y medio extendidos horizontales', type: 'consonant' },
+  i:   { img: 'img/lsa/i.png',    desc: 'Meñique extendido', type: 'vocal' },
+  j:   { img: 'img/lsa/j.png',    desc: 'Meñique con movimiento en J', type: 'consonant' },
+  k:   { img: 'img/lsa/k.png',    desc: 'Índice y medio con pulgar', type: 'consonant' },
+  l:   { img: 'img/lsa/l.png',    desc: 'Índice y pulgar en L', type: 'consonant' },
+  ll:  { img: 'img/lsa/ll.png',   desc: 'Dígrafo LL, seña compuesta similar a la L', type: 'consonant' },
+  m:   { img: 'img/lsa/m.png',    desc: 'Tres dedos curvados sobre pulgar', type: 'consonant' },
+  n:   { img: 'img/lsa/n.png',    desc: 'Dos dedos sobre pulgar', type: 'consonant' },
+  ñ:   { img: 'img/lsa/enie.png', desc: 'Seña con movimiento ondulante sobre la N', type: 'consonant' },
+  o:   { img: 'img/lsa/o.png',    desc: 'Dedos formando una O', type: 'vocal' },
+  p:   { img: 'img/lsa/p.png',    desc: 'Forma de P con índice y pulgar', type: 'consonant' },
+  q:   { img: 'img/lsa/q.png',    desc: 'Índice y pulgar hacia abajo', type: 'consonant' },
+  r:   { img: 'img/lsa/r.png',    desc: 'Índice y medio cruzados', type: 'consonant' },
+  s:   { img: 'img/lsa/s.png',    desc: 'Puño cerrado, pulgar cruzado', type: 'consonant' },
+  t:   { img: 'img/lsa/t.png',    desc: 'Pulgar entre índice y medio', type: 'consonant' },
+  u:   { img: 'img/lsa/u.png',    desc: 'Índice y medio juntos, arriba', type: 'vocal' },
+  v:   { img: 'img/lsa/v.png',    desc: 'Índice y medio separados', type: 'consonant' },
+  w:   { img: 'img/lsa/w.png',    desc: 'Tres dedos extendidos separados', type: 'consonant' },
+  x:   { img: 'img/lsa/x.png',    desc: 'Índice curvado en gancho', type: 'consonant' },
+  y:   { img: 'img/lsa/y.png',    desc: 'Pulgar y meñique extendidos', type: 'consonant' },
+  z:   { img: 'img/lsa/z.png',    desc: 'Índice traza Z en el aire', type: 'consonant' },
 };
 
 // ===== DOM READY =====
@@ -231,7 +234,14 @@ function initLSAGrid() {
     card.setAttribute('title', data.desc);
 
     card.innerHTML = `
-      <div class="lsa-emoji" aria-hidden="true">${data.emoji}</div>
+      <img
+        class="lsa-emoji"
+        src="${data.img}"
+        alt=""
+        aria-hidden="true"
+        loading="lazy"
+        onerror="this.onerror=null; this.style.display='none';"
+      />
       <div class="lsa-letra">${letra.toUpperCase()}</div>
       <div class="lsa-desc">${data.desc}</div>
     `;
@@ -291,9 +301,14 @@ function nextQuizQuestion() {
 
   if (!display || !options || !feedback) return;
 
-  // Mostrar la seña (emoji + descripción)
+  // Mostrar la seña (imagen + descripción)
   display.innerHTML = `
-    <div style="font-size: 3.5rem; line-height:1">${LSA_DATA[quizCurrentLetter].emoji}</div>
+    <img
+      class="quiz-seña-img"
+      src="${LSA_DATA[quizCurrentLetter].img}"
+      alt=""
+      onerror="this.onerror=null; this.style.display='none';"
+    />
     <div style="font-size:0.85rem; color:var(--color-text-muted); margin-top:0.5rem">¿Qué letra es esta seña?</div>
   `;
   display.setAttribute('aria-label', `Seña: ${LSA_DATA[quizCurrentLetter].desc}`);

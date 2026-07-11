@@ -766,7 +766,7 @@ body {
 
 .lsa-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
   gap: var(--space-sm);
   margin-bottom: var(--space-2xl);
 }
@@ -776,7 +776,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--space-sm);
+  padding: var(--space-md);
   background: var(--color-bg-card);
   border: 1px solid var(--color-border-dim);
   border-radius: var(--radius-md);
@@ -802,8 +802,10 @@ body {
 }
 
 .lsa-emoji {
-  font-size: 1.4rem;
-  line-height: 1;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  display: block;
 }
 
 .lsa-desc {
@@ -900,6 +902,13 @@ body {
   margin-bottom: var(--space-lg);
   line-height: 1;
   min-height: 80px;
+}
+
+.quiz-seña-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  display: inline-block;
 }
 
 .quiz-options {
