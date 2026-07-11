@@ -180,6 +180,42 @@ function handleBrailleHighlight(e) {
   // El CSS ya maneja el glow, esto es por si queremos efectos adicionales
 }
 
+//JUEGO BRAILLE
+let primerCartaSeleccionada = null;
+
+const cartas = document.querySelectorAll(".carta");
+const estadoJuego = document.getElementById("estado-juego");
+
+cartas.forEach(function(carta) {
+  carta.addEventListener("click", function() {
+    if (primerCartaSeleccionada === null) {
+      primerCartaSeleccionada = carta;
+      carta.classList.add("seleccionada");
+      carta.setAttribute("aria-pressed", "true");
+      estadoJuego.innerText = "Carta " + carta.dataset.letra + " en braille seleccionada. Elegí su pareja.";
+    } else {
+      const segundaCarta = carta;
+
+      if (
+        primerCartaSeleccionada.dataset.letra === segundaCarta.dataset.letra &&
+        primerCartaSeleccionada.dataset.tipo !== segundaCarta.dataset.tipo
+      ) {
+        primerCartaSeleccionada.classList.add("encontrada");
+        segundaCarta.classList.add("encontrada");
+        estadoJuego.innerText = "¡Correcto! Encontraste el par de la letra " + segundaCarta.dataset.letra + ".";
+        primerCartaSeleccionada = null;
+      } else {
+        primerCartaSeleccionada.classList.remove("seleccionada");
+        primerCartaSeleccionada.setAttribute("aria-pressed", "false");
+        segundaCarta.classList.remove("seleccionada");
+        segundaCarta.setAttribute("aria-pressed", "false");
+        estadoJuego.innerText = "No es correcta, intentá de nuevo!";
+        primerCartaSeleccionada = null;
+      }
+    }
+  });
+});
+
 // ===== GRID LSA =====
 function initLSAGrid() {
   const grid = document.getElementById('lsaGrid');

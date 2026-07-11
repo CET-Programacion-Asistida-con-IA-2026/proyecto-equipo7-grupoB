@@ -1242,6 +1242,18 @@ border-color: var(--color-accent);
   color: var(--color-text);
 }
 
+.encontrada{
+  background-color: aqua;
+  color: #111111;
+}
+
+#estado-juego{
+font-family: var(--font-body);
+max-width: 500px;
+text-align: center;
+margin: auto;
+}
+
 /* ===== RECURSOS ===== */
 .section-recursos {
   padding: var(--space-3xl) 0;
