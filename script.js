@@ -309,7 +309,7 @@ function nextQuizQuestion() {
       alt=""
       onerror="this.onerror=null; this.style.display='none';"
     />
-    <div style="font-size:0.85rem; color:var(--color-text-muted); margin-top:0.5rem">¿Qué letra es esta seña?</div>
+    <div style="font-size:calc(0.85rem * var(--text-scale, 1)); color:var(--color-text-muted); margin-top:0.5rem">¿Qué letra es esta seña?</div>
   `;
   display.setAttribute('aria-label', `Seña: ${LSA_DATA[quizCurrentLetter].desc}`);
 
