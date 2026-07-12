@@ -836,7 +836,7 @@ body {
 
 .frases-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--space-md);
 }
 
@@ -858,9 +858,14 @@ body {
 }
 
 .frase-emoji {
-  font-size: 2.5rem;
-  margin-bottom: var(--space-sm);
-  line-height: 1;
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  display: block;
+  margin: 0 auto var(--space-sm);
+  background: var(--color-bg);
 }
 
 .frase-texto {
