@@ -34,11 +34,11 @@ La plataforma incluye:
 ## 💜 Equipo
 
     
-Paz Pujadas 
-Bianca Biglione 
-Alomo Delia 
-Jazmin Sanjurjo
-Abigail Fabian
+Paz Pujadas ,
+Bianca Biglione ,
+Alomo Delia ,
+Jazmin Sanjurjo,
+Abigail Fabian,
 
 
 ---
