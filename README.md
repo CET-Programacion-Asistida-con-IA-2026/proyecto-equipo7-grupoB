@@ -33,6 +33,14 @@ La plataforma incluye:
 
 ## 💜 Equipo
 
+    
+Paz Pujadas 
+Bianca Biglione 
+Alomo Delia 
+Jazmin Sanjurjo
+Abigail Fabian
+
+
 ---
 
 *"La accesibilidad no es un favor. Es un derecho."*
