@@ -848,14 +848,46 @@
             </div>
             <span class="recurso-arrow" aria-hidden="true">→</span>
           </a>
-          <a href="https://noformal.org/inscripcion/grid_oferta_curso_todos/" target="_blank" rel="noopener noreferrer" class="recurso-card" aria-label="ONCE - recursos de Braille">
-            <span class="recurso-icon" aria-hidden="true">📖</span>
-            <div>
-              <strong>Aprende LSA</strong>
-              <p>Cursos cuatrimestrales que enseñan lo esencial de Lenguas de Señas Argentinas</p>
-            </div>
-            <span class="recurso-arrow" aria-hidden="true">→</span>
-          </a>
+          <div class="recurso-card recurso-card-expandible">
+            <button
+              type="button"
+              class="recurso-toggle"
+              id="lsaResourcesToggle"
+              aria-expanded="false"
+              aria-controls="lsaResourcesPanel">
+              <span class="recurso-icon" aria-hidden="true">📖</span>
+              <div>
+                <strong>Aprende LSA</strong>
+                <p>Cursos, videos y materiales para aprender Lengua de Señas Argentina</p>
+              </div>
+              <span class="recurso-arrow recurso-arrow-toggle" aria-hidden="true">▾</span>
+            </button>
+            <ul class="recurso-sublinks" id="lsaResourcesPanel" role="list">
+              <!-- ===== AGREGAR ACÁ LOS LINKS DIRECTOS DE APRENDE LSA ===== -->
+              <li role="listitem">
+                <a href="https://youtube.com/@lsacomunicar?si=GWABApWSchQbc_f5" target="_blank" rel="noopener noreferrer"> Canal YT "Lengua de señas argentinas"  </a>
+              </li>
+              <li role="listitem">
+                <a href="https://youtube.com/@pilaracosta22?si=FTC9Z0006zPXzjeG" target="_blank" rel="noopener noreferrer"> Pilar Acosta </a>
+              </li>
+              <li role="listitem">
+                <a href="https://noformal.org/inscripcion/grid_oferta_curso_todos/" target="_blank" rel="noopener noreferrer">🎓 ENOF — Curso de LSA</a>
+              </li>
+              <li role="listitem">
+                <a href="https://buenosaires.gob.ar/gcaba_historico/informe/tecnicatura-superior-en-interpretacion-de-lengua-de-senas-argentina-sordos-e-hipoacusicos" target="_blank" rel="noopener noreferrer">🏫 Tecnicatura de Intérprete LSA (gratuita)</a>
+              </li>
+              <li role="listitem">
+                <a href="https://cas.org.ar/senario-de-terminos-y-expresiones-en-lengua-de-senas-argentina/" target="_blank" rel="noopener noreferrer">📄 CAS — Señario 1</a>
+              </li>
+              <li role="listitem">
+                <a href="https://cas.org.ar/senario-de-terminos-y-expresiones-en-lengua-de-senas-argentina-vol-2/" target="_blank" rel="noopener noreferrer">📄 CAS — Señario 2</a>
+              </li>
+              <li role="listitem">
+                <a href="https://www.asamutual.org.ar/" target="_blank" rel="noopener noreferrer">🤝 ONG — LSA para personas sordas (alfabetización)</a>
+              </li>
+              <!-- ===== FIN LINKS APRENDE LSA ===== -->
+            </ul>
+          </div>
           <a href="https://www.cultura.gob.ar/" target="_blank" rel="noopener noreferrer" class="recurso-card" aria-label="Ministerio de Cultura Argentina - recurso externo">
             <span class="recurso-icon" aria-hidden="true">🏛️</span>
             <div>

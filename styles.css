@@ -1291,6 +1291,7 @@ margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-lg);
+  align-items: start;
 }
 
 .recurso-card {
@@ -1342,6 +1343,79 @@ margin: auto;
 
 .recurso-card:hover .recurso-arrow {
   transform: translateX(4px);
+}
+
+/* --- Tarjeta expandible "Aprende LSA" --- */
+.recurso-card-expandible {
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  overflow: hidden;
+}
+
+.recurso-card-expandible:hover {
+  transform: none;
+}
+
+.recurso-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  width: 100%;
+  padding: var(--space-lg);
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.recurso-toggle:hover,
+.recurso-toggle:focus-visible {
+  color: var(--color-accent);
+}
+
+.recurso-arrow-toggle {
+  transition: transform var(--transition);
+}
+
+.recurso-toggle[aria-expanded="true"] .recurso-arrow-toggle {
+  transform: rotate(180deg);
+}
+
+.recurso-sublinks {
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--space-lg);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition), padding var(--transition);
+}
+
+.recurso-sublinks.open {
+  max-height: 700px;
+  padding: 0 var(--space-lg) var(--space-md);
+}
+
+.recurso-sublinks li {
+  border-top: 1px solid var(--color-border-dim);
+}
+
+.recurso-sublinks a {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-xs);
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: calc(0.85rem * var(--text-scale));
+  transition: color var(--transition);
+}
+
+.recurso-sublinks a:hover,
+.recurso-sublinks a:focus-visible {
+  color: var(--color-accent);
 }
 
 @media (max-width: 700px) {

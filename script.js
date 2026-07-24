@@ -624,3 +624,16 @@ document.addEventListener('keydown', (e) => {
     announceToScreenReader(`Letra ${letra}: ${desc}`);
   }
 });
+
+// ===== RECURSOS: DESPLEGABLE "APRENDE LSA" =====
+document.addEventListener('DOMContentLoaded', () => {
+  const lsaToggle = document.getElementById('lsaResourcesToggle');
+  const lsaPanel  = document.getElementById('lsaResourcesPanel');
+
+  if (lsaToggle && lsaPanel) {
+    lsaToggle.addEventListener('click', () => {
+      const isOpen = lsaPanel.classList.toggle('open');
+      lsaToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
+});
