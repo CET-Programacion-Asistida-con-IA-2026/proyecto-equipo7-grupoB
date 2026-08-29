@@ -732,6 +732,25 @@ body {
   .mitos-grid { grid-template-columns: 1fr; }
 }
 
+/* INFO BASTONES */
+
+.listab{
+  display: flex;
+  list-style: none;
+  margin: 1rem;
+}
+
+.img-baston{
+  width: 7rem;
+  height: 7rem;
+  max-width: 500px;
+  display: inline;
+}
+
+.explicacion{
+  margin-top: 6px;
+}
+
 /* ===== SECCIÓN LSA ===== */
 .section-lsa {
   padding: var(--space-3xl) 0;
